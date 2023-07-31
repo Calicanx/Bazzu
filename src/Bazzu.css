@@ -1,0 +1,879 @@
+body{
+  margin: 0;
+}
+.ecom-site,
+.ecom-site * {
+  box-sizing: border-box;
+}
+.ecom-site {
+  background: #ffffff;
+  width: 100%;
+  height: 2605px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-98 {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 491.5px;
+  top: 29px;
+}
+.search-icon {
+  background: #d9d9d9;
+  border-radius: 25px;
+  flex-shrink: 0;
+  width: 339px;
+  height: 50px;
+  position: relative;
+}
+.search {
+  color: #000000;
+  text-align: center;
+  font: 400 24px "Inter", sans-serif;
+  position: relative;
+}
+.user-icon {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 90%;
+  top: 29px;
+}
+.cart-icon {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 95%;
+  top: 29px;
+}
+.frame-59 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 267px;
+  position: absolute;
+  left: 31px;
+  top: 114px;
+}
+.men-category-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: 323px;
+  position: relative;
+}
+.men-button {
+  background: rgba(0, 0, 0, 0.9);
+  border-radius: 50px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 17px 19px 17px 19px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 180px;
+  position: relative;
+  overflow: hidden;
+}
+.men {
+  color: #ffffff;
+  text-align: center;
+  font: 600 24px "Inter", sans-serif;
+  position: relative;
+}
+.category-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.category-icon {
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+.men-s-accesories {
+  color: #000000;
+  text-align: center;
+  font: 500 20px "Inter", sans-serif;
+  position: relative;
+}
+.category-wrapper2 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 237px;
+  position: relative;
+}
+.men-s-shirts {
+  color: #000000;
+  text-align: center;
+  font: 500 20px "Inter", sans-serif;
+  position: relative;
+}
+.men-s-shoes {
+  color: #000000;
+  text-align: center;
+  font: 500 20px "Inter", sans-serif;
+  position: relative;
+}
+.men-s-coats {
+  color: #000000;
+  text-align: center;
+  font: 500 20px "Inter", sans-serif;
+  position: relative;
+}
+.women-category-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.women-button {
+  background: rgba(0, 0, 0, 0.9);
+  border-radius: 50px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 17px 19px 17px 19px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 180px;
+  position: relative;
+  overflow: hidden;
+}
+.women {
+  color: #ffffff;
+  text-align: center;
+  font: 600 24px "Inter", sans-serif;
+  position: relative;
+}
+.women-s-accesories {
+  color: #000000;
+  text-align: center;
+  font: 500 20px "Inter", sans-serif;
+  position: relative;
+}
+.women-s-dresses {
+  color: #000000;
+  text-align: center;
+  font: 500 20px "Inter", sans-serif;
+  position: relative;
+}
+.women-s-shoes {
+  color: #000000;
+  text-align: center;
+  font: 500 20px "Inter", sans-serif;
+  position: relative;
+}
+.women-s-coats {
+  color: #000000;
+  text-align: center;
+  font: 500 20px "Inter", sans-serif;
+  position: relative;
+}
+.children-category-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.children-button {
+  background: rgba(0, 0, 0, 0.9);
+  border-radius: 50px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 17px 19px 17px 19px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 180px;
+  position: relative;
+  overflow: hidden;
+}
+.children {
+  color: #ffffff;
+  text-align: center;
+  font: 600 24px "Inter", sans-serif;
+  position: relative;
+}
+.children-s-shirts {
+  color: #000000;
+  text-align: center;
+  font: 500 20px "Inter", sans-serif;
+  position: relative;
+}
+.children-s-trousers {
+  color: #000000;
+  text-align: center;
+  font: 500 20px "Inter", sans-serif;
+  position: relative;
+}
+.children-s-shoes {
+  color: #000000;
+  text-align: center;
+  font: 500 20px "Inter", sans-serif;
+  position: relative;
+}
+.children-s-toys {
+  color: #000000;
+  text-align: center;
+  font: 500 20px "Inter", sans-serif;
+  position: relative;
+}
+.categories-button {
+  background: rgba(0, 0, 0, 0.9);
+  border-radius: 50px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 17px 19px 17px 19px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 260px;
+  position: relative;
+  overflow: hidden;
+}
+.other-categories {
+  color: #ffffff;
+  text-align: center;
+  font: 600 20px "Inter", sans-serif;
+  position: relative;
+}
+.explore {
+  color: #000000;
+  text-align: center;
+  font: 600 48px "Inter", sans-serif;
+  position: absolute;
+  left: 360px;
+  top: 119px;
+}
+.rectangle-42 {
+  background: #6cd6f4;
+  border-radius: 25px;
+  width: 40%;
+  height: 250px;
+  position: absolute;
+  left: 24%;
+  top: 227px;
+}
+.rectangle-45 {
+  border-radius: 25px;
+  width: 40%;
+  height: 250px;
+  position: absolute;
+  left: 24%;
+  top: 507px;
+}
+.rectangle-48 {
+  background: #ff9292;
+  border-radius: 25px;
+  width: 40%;
+  height: 250px;
+  position: absolute;
+  left: 59%;
+  top: 805px;
+}
+.rectangle-49 {
+  background: #bfbfbf;
+  border-radius: 25px;
+  width: 40%;
+  height: 250px;
+  position: absolute;
+  left: 59%;
+  top: 1061px;
+}
+.rectangle-43 {
+  border-radius: 25px;
+  width: 15%;
+  height: 375px;
+  position: absolute;
+  left: 66%;
+  top: 222px;
+}
+.tagline-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 66%;
+  top: 612px;
+}
+.new-released-product {
+  color: #000000;
+  text-align: center;
+  font: 400 24px "Inter", sans-serif;
+  position: relative;
+  width: 191px;
+  height: 58px;
+}
+.children-button2 {
+  background: rgba(0, 0, 0, 0.9);
+  border-radius: 50px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 17px 19px 17px 19px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 162px;
+  position: relative;
+  overflow: hidden;
+}
+.shop {
+  color: #ffffff;
+  text-align: center;
+  font: 600 24px "Inter", sans-serif;
+  position: relative;
+}
+.rectangle-44 {
+  border-radius: 25px;
+  width: 15%;
+  height: 375px;
+  position: absolute;
+  left: 84%;
+  top: 224px;
+}
+.tagline-wrapper2 {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 84%;
+  top: 606px;
+}
+.new-discounted-product {
+  color: #000000;
+  text-align: center;
+  font: 400 24px "Inter", sans-serif;
+  position: relative;
+  width: 191px;
+  height: 58px;
+}
+.img-2640-1 {
+  border-radius: 25px 0px 0px 25px;
+  width: 235px;
+  height: 250px;
+  position: absolute;
+  left: 59%;
+  top: 1061px;
+}
+.rectangle-46 {
+  border-radius: 25px;
+  width: 200px;
+  height: 375px;
+  position: absolute;
+  left: 308px;
+  top: 802px;
+}
+.tagline-wrapper3 {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 308px;
+  top: 1192px;
+}
+.rectangle-47 {
+  border-radius: 25px;
+  width: 200px;
+  height: 375px;
+  position: absolute;
+  left: 553px;
+  top: 804px;
+}
+.tagline-wrapper4 {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 553px;
+  top: 1193px;
+}
+.rectangle-50 {
+  background: #2b2b2b;
+  border-radius: 25px;
+  width: 1201px;
+  height: 269px;
+  position: absolute;
+  left: 41px;
+  top: 1371px;
+}
+.cesdk-2023-07-23-t-18-40-36-1 {
+  border-radius: 0px 0px 0px 25px;
+  width: 16%;
+  height: 299px;
+  position: absolute;
+  left: 24%;
+  top: 177px;
+}
+.cesdk-2023-07-23-t-18-37-19-1 {
+  width: 203px;
+  height: 304px;
+  position: absolute;
+  left: 744px;
+  top: 752px;
+}
+.frame-100 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 517px;
+  top: 301px;
+}
+.don-x-bazzu {
+  color: #000000;
+  text-align: left;
+  position: relative;
+  left: 15%;
+}
+.don-x-bazzu-span {
+  color: #000000;
+  font: 500 40px "Inter", sans-serif;
+}
+.don-x-bazzu-span2 {
+  color: #000000;
+  font: 600 40px "Inter", sans-serif;
+}
+.don-x-bazzu-span3 {
+  color: #000000;
+  font: 400 44px "Luckiest Guy", sans-serif;
+}
+.couples-hoodie {
+  color: #ffffff;
+  text-align: left;
+  font: 400 28px "Shrikhand", sans-serif;
+  position: relative;
+  left: 15%;
+}
+.frame-101 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 963px;
+  top: 851px;
+}
+.don-x-bazzu-span4 {
+  color: #000000;
+  font: 500 40px "Inter", sans-serif;
+}
+.don-x-bazzu-span5 {
+  color: #000000;
+  font: 400 44px "Luckiest Guy", sans-serif;
+}
+.red-hoodie {
+  color: #ff0000;
+  text-align: left;
+  font: 400 32px "Nosifer Caps", sans-serif;
+  position: relative;
+}
+.cesdk-2023-07-23-t-19-01-54-1 {
+  border-radius: 0px 0px 25px 0px;
+  width: 335px;
+  height: 419px;
+  position: absolute;
+  left: 75%;
+  top: 892px;
+}
+.img-2646-1 {
+  border-radius: 25px 0px 0px 25px;
+  width: 235px;
+  height: 270.15px;
+  position: absolute;
+  left: 40px;
+  top: 1371px;
+}
+.img-2651-1 {
+  width: 235px;
+  height: 270px;
+  position: absolute;
+  left: 275px;
+  top: 1371px;
+}
+.img-2625-1 {
+  width: 235px;
+  height: 270px;
+  position: absolute;
+  left: 778px;
+  top: 1371px;
+}
+.img-2650-1 {
+  border-radius: 0px 25px 25px 0px;
+  width: 235px;
+  height: 269px;
+  position: absolute;
+  left: 1013px;
+  top: 1371px;
+}
+.frame-114 {
+  display: flex;
+  flex-direction: row;
+  gap: 55px;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  top: 1720px;
+  width: 100%;
+}
+.frame-110 {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.rectangle-57 {
+  flex-shrink: 0;
+  width: 250px;
+  height: 300px;
+  position: relative;
+}
+.frame-106 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.bazzu-hoodies {
+  color: #000000;
+  text-align: center;
+  font: 400 24px "Inter", sans-serif;
+  position: relative;
+}
+.kshs-2500 {
+  color: #000000;
+  text-align: center;
+  font: 600 24px "Inter", sans-serif;
+  position: relative;
+}
+.frame-111 {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.rectangle-58 {
+  flex-shrink: 0;
+  width: 250px;
+  height: 300px;
+  position: relative;
+}
+.frame-107 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.nike-t-shirt {
+  color: #000000;
+  text-align: center;
+  font: 400 24px "Inter", sans-serif;
+  position: relative;
+}
+.frame-112 {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.rectangle-59 {
+  flex-shrink: 0;
+  width: 250px;
+  height: 300px;
+  position: relative;
+}
+.frame-108 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.nike-low-cut-a-1 {
+  color: #000000;
+  text-align: center;
+  font: 400 24px "Inter", sans-serif;
+  position: relative;
+}
+.frame-113 {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.rectangle-60 {
+  flex-shrink: 0;
+  width: 250px;
+  height: 300px;
+  position: relative;
+}
+.frame-109 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.nike-socks {
+  color: #000000;
+  text-align: center;
+  font: 400 24px "Inter", sans-serif;
+  position: relative;
+}
+.rectangle-61 {
+  background: #232323;
+  width: 100%;
+  height: 396px;
+  position: absolute;
+  left: 0px;
+  top: 2209px;
+}
+.frame-115 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 45px;
+  top: 2349px;
+}
+.location {
+  color: #ffffff;
+  text-align: center;
+  font: 700 24px "Inter", sans-serif;
+  position: relative;
+}
+.nakuru-kenya {
+  color: #ffffff;
+  text-align: center;
+  font: 400 24px "Inter", sans-serif;
+  position: relative;
+}
+.email {
+  color: #ffffff;
+  text-align: center;
+  font: 700 24px "Inter", sans-serif;
+  position: relative;
+}
+.bazzuwears-gmail-com {
+  color: #ffffff;
+  text-align: center;
+  font: 400 24px "Inter", sans-serif;
+  position: relative;
+}
+.quick-links {
+  color: #ffffff;
+  text-align: center;
+  font: 700 32px "Inter", sans-serif;
+  position: absolute;
+  left: 500px;
+  top: 2283px;
+}
+.frame-116 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 516px;
+  top: 2357px;
+}
+.return-policy {
+  color: #ffffff;
+  text-align: center;
+  font: 400 24px "Inter", sans-serif;
+  position: relative;
+}
+.shipping-policy {
+  color: #ffffff;
+  text-align: center;
+  font: 400 24px "Inter", sans-serif;
+  position: relative;
+}
+.refund-policy {
+  color: #ffffff;
+  text-align: center;
+  font: 400 24px "Inter", sans-serif;
+  position: relative;
+}
+.privacy-policy {
+  color: #ffffff;
+  text-align: center;
+  font: 400 24px "Inter", sans-serif;
+  position: relative;
+}
+.newsletter {
+  color: #ffffff;
+  text-align: center;
+  font: 700 32px "Inter", sans-serif;
+  position: absolute;
+  left: 925.5px;
+  top: 2283px;
+}
+.rectangle-62 {
+  background: #d9d9d9;
+  border-radius: 5px;
+  width: 350px;
+  height: 55px;
+  position: absolute;
+  left: 860px;
+  top: 2352px;
+}
+.frame-117 {
+  background: #ffffff;
+  border-radius: 50px;
+  padding: 8px 4px 8px 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 177px;
+  height: 52px;
+  position: absolute;
+  left: 860px;
+  top: 2432px;
+  overflow: hidden;
+}
+.subscribe {
+  color: #000000;
+  text-align: center;
+  font: 700 24px "Inter", sans-serif;
+  position: relative;
+}
+.frame-118 {
+  display: flex;
+  flex-direction: row;
+  gap: 19px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 860px;
+  top: 2509px;
+}
+.rectangle-63 {
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+.rectangle-64 {
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+.rectangle-65 {
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+.rectangle-66 {
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+.rectangle-67 {
+  width: 200px;
+  height: 189px;
+  position: absolute;
+  left: 0;
+  top: -75px;
+}
+.rectangle-68 {
+  width: 143px;
+  height: 106px;
+  position: absolute;
+  left: 102px;
+  top: 2232px;
+}
+.img-2614-1 {
+  width: 268px;
+  height: 270px;
+  position: absolute;
+  left: 510px;
+  top: 1371px;
+}
