@@ -1,5 +1,5 @@
-import logo from './assets/Pink Minimalist Beauty Salon Logo.webp'
-import logo2 from './assets/Pink Minimalist Beauty Salon Logo (2).webp'
+import logo from './assets/Logo.webp'
+import logo2 from './assets/Logo2.webp'
 import cap from './assets/cap.webp'
 import couple from './assets/cesdk-2023-07-23T18 40 36.004Z.webp'
 import man_shirt from './assets/shirt (1).webp'
